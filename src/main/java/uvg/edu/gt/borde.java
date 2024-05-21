@@ -38,5 +38,9 @@ public class borde {
         this.peso = peso;
     }
 
+    public String toString() {
+        return origen.getNombre() + " -> " + destino.getNombre() + " " + peso + "km";
+    }
+
     
 }
